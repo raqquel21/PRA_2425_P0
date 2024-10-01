@@ -20,19 +20,19 @@ bool BrazoRobotico::SujetaObj() const {
 	return sujeta_obj;
 }
 
-void coger(){
+void BrazoRobotico::coger(){
 	if (!sujeta_obj){
 		sujeta_obj = true;
 	}
 }
 
-void soltar() {
+void BrazoRobotico::soltar() {
 	if (sujeta_obj){
 		sujeta_obj = false;
 	}
 }
 
-void mover (double nuevoX, double, nuevoY, double, nuevoZ){
+void BrazoRobotico::mover (double nuevoX, double nuevoY, double nuevoZ){
 	x = nuevoX;
 	y = nuevoY;
 	z = nuevoZ;

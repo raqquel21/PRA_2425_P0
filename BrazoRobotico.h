@@ -8,7 +8,7 @@ class BrazoRobotico {
 		int sujeta_obj;
 	public:
 		// Método constructor (inicializo los valores)
-		BrazorRobotico(double x_ini = 0, double y_ini = 0, double z_ini = 0);
+		BrazoRobotico(double x_ini = 0, double y_ini = 0, double z_ini = 0);
 		// 4 métodos consultores
 		double getX() const;
 		double getY() const;
